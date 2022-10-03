@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: price-service
+  jpa:
+    open-in-view: false
+
+server:
+  port: 9082
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9080/eureka/
