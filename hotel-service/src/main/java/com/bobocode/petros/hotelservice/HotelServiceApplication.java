@@ -1,4 +1,4 @@
-package com.bobocode.petros.priceservice;
+package com.bobocode.petros.hotelservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableEurekaClient
 @SpringBootApplication
-public class PriceServiceApplication {
+public class HotelServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(PriceServiceApplication.class, args);
+        SpringApplication.run(HotelServiceApplication.class, args);
     }
 }

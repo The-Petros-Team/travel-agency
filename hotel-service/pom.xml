@@ -11,10 +11,10 @@
     </parent>
 
     <groupId>com.bobocode.petros</groupId>
-    <artifactId>price-service</artifactId>
+    <artifactId>hotel-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>price-service</name>
-    <description>price-service</description>
+    <name>hotel-service</name>
+    <description>hotel-service</description>
 
     <properties>
         <java.version>17</java.version>
