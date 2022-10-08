@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: reservation-service
+  jpa:
+    open-in-view: false
+    show-sql: true
+
+server:
+  port: 9083
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9080/eureka/
