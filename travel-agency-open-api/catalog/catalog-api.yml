@@ -1,0 +1,38 @@
+openapi: 3.0.3
+info:
+  title: Catalog Servic
+  description: Catalog service API
+  contact:
+    name: Petros Team
+  version: 1.0.0.
+servers:
+  - url: https://localhost:9080/v1
+    description: Local server
+paths:
+  /v1/catalogs:
+    get:
+      responses:
+        200:
+          description: returns all available travel catalogs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Catalog'
+
+components:
+  schemas:
+    Catalog:
+      type: object
+      properties:
+        country:
+          type: string
+          description: Country name
+          example: Ukraine
+        cities:
+          type: array
+          items:
+            type: string
+          example: ['Kyiv','Lviv']
+
