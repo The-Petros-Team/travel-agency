@@ -8,7 +8,6 @@
         <module>application</module>
         <module>boot</module>
         <module>infrastructure</module>
-        <module>rest</module>
     </modules>
 
     <groupId>com.bobocode.petros</groupId>
